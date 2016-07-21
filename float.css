@@ -1,0 +1,20 @@
+div:not(.bloque){
+	width: 100px; 
+	height: 100px;
+	background-color: green;
+	border: 2px black solid;
+}
+.bloque {
+	background-color: yellow;
+	padding: 10px;
+	width: 320px;
+}
+div:not(.linea){
+	margin: 10px;
+}
+.floating {
+	float: left;
+}
+.clearfix {
+	overflow: auto;
+}
